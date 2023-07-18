@@ -1,0 +1,95 @@
+/* Work Sans font from Google gont */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* COMMON SHARED STYLES */
+* {
+    padding: 0;margin: 0;box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    /* max-width: 1400px; */
+    max-width: 80%;
+    margin: auto;
+}
+.primary_btn{
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 0;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.special{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 5.93rem;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+/* MAIN CODE STYLE */
+header{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 38px 240px;
+}
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_container ul{
+    display: flex;
+}
+.header_container li{
+    list-style: none;
+    margin-right: 32px;
+}
+.header_container li a{
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+
+
+/* Banner Section */
+.banner{
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+    padding: 0px 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 68px;
+}
+.banner_title{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.banner_text{
+    margin: 15px 0px;
+}
+.text{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+}
