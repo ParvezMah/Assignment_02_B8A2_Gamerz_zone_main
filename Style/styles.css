@@ -43,6 +43,29 @@
     font-weight: 400;
     padding: 24px 0px;
 }
+.logo_section{
+    display: flex;
+    gap: 20px;
+}
+.logo_title{
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.section_title .pink{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section_title .gradient{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
 
 
 
@@ -65,6 +88,16 @@ header{
 }
 .header_container ul{
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.follow_us{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 16px 24px;
+}
+.follow_us i{
+    font-size: 24px;
 }
 .header_container li{
     list-style: none;
@@ -209,4 +242,53 @@ header{
 }
 .game_type_name{
     padding: 28px 20px;
+}
+
+
+
+footer{
+    padding: 120px 0px;
+    background: #0B0223;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 66px;
+}
+
+
+footer ul{
+    display: flex;
+    gap: 30px;
+}
+footer .section_title{
+    color: #fff;
+}
+footer ul li{
+    list-style: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.12rem;
+    font-weight: 600;
+}
+.social_links{
+    display: flex;
+    gap: 40px;
+}
+.social_links a{
+    text-decoration: none;
+}
+.social_links a i{
+    font-size: 50px;
+    color: #fff;    
+}
+.terms_and_conditions {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.terms_and_conditions ul, .terms_and_conditions p{
+    padding-bottom: 18px;
 }
