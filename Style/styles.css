@@ -380,15 +380,15 @@ footer ul li{
         justify-content: left;
     }
     .big_image{
-        width: 280px;
+        width: 250px;
         
     }
     .small_image {
         position: absolute;
         width: 120px;
         height: 120px;
-        top: 171px;
-        left: 195px;
+         top: 151px;
+        left: 163px;
     }
     
     /* .big_image{
